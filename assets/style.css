@@ -20,3 +20,12 @@ body {
 .textoqs {
     text-align: center;
 }
+
+#quienes-somos,
+#cards,
+#formulario,
+#footer {
+    height: 50rem;
+    background-color: black;
+    margin-bottom: 1rem;
+}
