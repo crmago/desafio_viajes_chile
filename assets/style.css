@@ -1,0 +1,22 @@
+html {
+    scroll-behavior: smooth;
+}
+
+/*estilo del navbar*/
+.navbar-brand {
+    color: white;
+    height: auto;
+    width: 50px;
+}
+
+.nav-link {
+    color: white;
+}
+
+body {
+    color: white;
+}
+
+.textoqs {
+    text-align: center;
+}
