@@ -15,7 +15,6 @@ li {
 .navbar {
     background-color: transparent;
     transition: background-color 0.5s ease;
-    /* transición suave */
 }
 
 .navbar-brand {
@@ -146,6 +145,7 @@ body {
     display: flex;
     align-items: center;
     justify-content: space-between;
+    flex-direction: row;
 }
 
 .container .i2 {
