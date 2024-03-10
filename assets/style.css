@@ -74,7 +74,7 @@ body {
 #cards,
 #formulario,
 #footer {
-    height: 50rem;
+    height: 100%;
     background-color: black;
     margin-top: auto;
     padding: 4rem;
@@ -83,7 +83,7 @@ body {
 /*css #cards*/
 
 .row .card-r {
-    padding: 50px;
+    padding: 30px;
 }
 
 #cards h3 {
@@ -134,4 +134,28 @@ body {
 
 #cont-form {
     padding-top: 100px !important;
+}
+
+/*footer*/
+
+#footer {
+    background-color: #328998;
+}
+
+.container.c2 {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.container .i2 {
+    margin-left: 10px;
+}
+
+.container .iconos i {
+    margin-right: 10px;
+}
+
+i {
+    width: 30px;
 }

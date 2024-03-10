@@ -10,12 +10,18 @@ $(function () {
 });
 
 
-document.getElementById('contactForm').addEventListener('submit', function (event) {
-    event.preventDefault(); // Prevenir el envío del formulario
+document.getElementById('contactForm').addEventListener('submit', function(event) {
+    event.preventDefault();
 
-    // Mostrar mensaje de "Enviado"
-    alert('Mensaje enviado correctamente.');
+    let respuesta = prompt('Mensaje enviado correctamente. ¿Te podemos ayudar en algo más? (Sí/No)');
+    if (respuesta && respuesta.toLowerCase() === 'si') {
 
-    // Opcionalmente, puedes reiniciar el formulario después de enviarlo
-    // this.reset(); // Descomenta esta línea si deseas reiniciar el formulario después de enviarlo
+        let respuesta2 = prompt('¿En qué más te podemos ayudar?');
+
+        alert('Gracias por tu respuesta. Nos pondremos en contacto contigo lo antes posible.');
+    } else {
+
+        alert('Gracias por contactarnos. Nos pondremos en contacto contigo lo antes posible.');
+    }
+
 });
