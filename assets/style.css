@@ -103,4 +103,35 @@ body {
 .card-img-top {
     height: 150px;
     object-fit: cover;
+    transition: transform 0.5s ease;
+}
+
+.card-img-top:hover {
+    transform: scale(1.1);
+}
+
+.card-st img {
+    border-radius: 10px 10px 0 0;
+}
+
+.card-body {
+    border-radius: 0 0 10px 10px;
+}
+
+/* CSS formulario contacto*/
+
+.contacto {
+    text-align: center;
+    border-bottom: 1px solid #a39b9b;
+    padding-bottom: 45px;
+    margin-left: 100px;
+    margin-right: 100px;
+}
+
+#exampleInputMensaje1 {
+    height: 200px;
+}
+
+#cont-form {
+    padding-top: 100px !important;
 }
