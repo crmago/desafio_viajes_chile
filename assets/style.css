@@ -3,6 +3,21 @@ html {
 }
 
 /*estilo del navbar*/
+
+.navbar,
+#navbarNav,
+.navbar-collapse,
+li {
+    background: none;
+    margin: 0 30px;
+}
+
+.navbar {
+    background-color: transparent;
+    transition: background-color 0.5s ease;
+    /* transición suave */
+}
+
 .navbar-brand {
     color: white;
     height: auto;
@@ -17,8 +32,42 @@ body {
     color: white;
 }
 
-.textoqs {
+/*css de Quienes Somos*/
+
+#quienes-somos {
     text-align: center;
+    padding: 2rem;
+}
+
+.texto-cl {
+    border-bottom: 1px solid #a39b9b;
+    padding-bottom: 45px;
+    margin-left: 100px;
+    margin-right: 100px;
+}
+
+.container .cont-icon1 {
+    background-color: #328998;
+    margin-top: 80px;
+    padding: 5px;
+}
+
+
+#icon-m {
+    margin-top: 2px !important;
+}
+
+#parrafo-m {
+    margin-top: 80px !important;
+}
+
+.parrafo {
+    text-align: justify;
+    margin-top: 5px;
+}
+
+.parrafo .p2 {
+    padding-top: 10px;
 }
 
 #quienes-somos,
@@ -27,5 +76,31 @@ body {
 #footer {
     height: 50rem;
     background-color: black;
-    margin-bottom: 1rem;
+    margin-top: auto;
+    padding: 4rem;
+}
+
+/*css #cards*/
+
+.row .card-r {
+    padding: 50px;
+}
+
+#cards h3 {
+    text-align: center;
+    padding: 2rem;
+}
+
+.card-st {
+    width: 15rem;
+    padding: 10px;
+}
+
+.card-body {
+    background-color: #328998;
+}
+
+.card-img-top {
+    height: 150px;
+    object-fit: cover;
 }
