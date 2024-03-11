@@ -79,6 +79,13 @@ body {
     padding: 4rem;
 }
 
+@media (max-width: 768px) {
+    #quienes-somos {
+        display: none;
+    }
+}
+
+
 /*css #cards*/
 
 .row .card-r {
@@ -117,6 +124,7 @@ body {
     border-radius: 0 0 10px 10px;
 }
 
+
 /* CSS formulario contacto*/
 
 .contacto {
@@ -142,6 +150,7 @@ body {
 }
 
 .container.c2 {
+    height: 60px;
     display: flex;
     align-items: center;
     justify-content: space-between;
@@ -157,5 +166,5 @@ body {
 }
 
 i {
-    width: 30px;
+    width: 40px;
 }

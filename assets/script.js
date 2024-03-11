@@ -1,3 +1,5 @@
+// funcion para que la Navbar pase de trasnparente a solida despues de hacer scroll de mas de 100px
+
 $(function () {
     $(window).scroll(function () {
         let navegador = $(".navbar");
@@ -9,6 +11,7 @@ $(function () {
     });
 });
 
+// funcion para llenar el formulario de contacto y que este se envie solo si se llenaron los campos de informcion
 
 document.getElementById('contactForm').addEventListener('submit', function(event) {
     event.preventDefault();
