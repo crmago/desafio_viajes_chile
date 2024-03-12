@@ -10,8 +10,4 @@ Desarrollado por Cristian Mancilla
 - Carousel
 - Navbar
 - Card
-<<<<<<< HEAD
 - ToolTip
-=======
-- ToolTip
->>>>>>> b06967d9eb1fabba6770d3c68d2a3601d4fc3c1b
